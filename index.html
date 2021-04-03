@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!-- tab cosmetics -->
+        <title>The Unsinkable Violet Jessop</title>
+        <link rel = "icon" href = "images/tab_icon.png">
+
+        <!-- meta tags -->
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        
+        <!-- bootstrap (compiled and minified css for v4.3.1) -->
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+              integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+        
+        <!-- personal stylesheet link -->
+        <link rel = "stylesheet" href = "css/style.css">
+
+        <!-- external font stylesheet link -->
+        <link rel = "stylesheet" href = "https://use.typekit.net/njr8fsu.css">
+        
+        <!-- external fontawesome stylesheet link for icons -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- animate on scroll library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body data-spy = "scroll" data-target = "#myScrollspy" class = "w-100 mx-0 container-fluid px-0">
+        <!-- navigation bar start -->
+        <header>
+            <nav class = "navbar navbar-expand-md fixed-top w-100 " id = "myScrollspy">
+                <a class = "logo navbar-brand ml-2" href = "#home">Violet Jessop</a>
+
+                <button class = "navbar-toggler d-lg-none justify-content-end navbar-light custom-toggler mr-3" 
+                        type = "button" data-toggle = "collapse" data-target = "#collapsibleNavId" aria-controls = "collapsibleNavId"
+                        aria-expanded = "false" aria-label = "Toggle navigation">
+                    <span class = "navbar-toggler-icon my-toggler"></span>
+                </button>
+
+                <div class = "collapse navbar-collapse justify-content-end " id = "collapsibleNavId">
+                    <ul class = "navbar-nav mt-2 mt-lg-0">
+                        <li id = "homebtn" class = "nav-item active">
+                            <a class = "nav-link mx-2 page-scroll" href = "#home">Home<span class = "sr-only">(current)</span></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link mx-2 page-scroll" href = "#about">About Me</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link mx-2 page-scroll" href = "#myWork">Experience</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link mx-2 page-scroll" href = "#myServices">Services</a>
+                        </li>
+                        <li>
+                            <button onclick = "document.location = '#contact'" type = "button" 
+                                    class = "btn btn-primary mr-3 ml-3">Drop Me A Line</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- navigation bar end -->
+
+        <!-- home page start -->
+        <div id = "home" class = "home container-fluid">
+            <div class = "row d-flex justify-content-center mx-0">
+                <h1 id = "title" class = "centered col-12 col-md-10" data-aos = "zoom-out" data-aos-duration = "1000">
+                    <span>Quitters Never Win</span></h1>
+            </div>
+
+            <hr id = "hrhome">
+
+            <div class = "row d-flex justify-content-center w-100 mx-0">
+                <p id = "sub" class = "col-10 col-md-8 text-left text-sm-center px-0 mx-0" data-aos = "zoom-out" 
+                   data-aos-duration="1000" data-aos-delay="200">
+                   <span>but we walk the plank on a sinking ship</span>
+                </p>
+            </div>
+
+            <div id = "learn" class = "row container-fluid d-flex justify-content-end justify-content-sm-center pr-3 pr-sm-0 mx-0  mt-2">
+                <button onclick = "document.location = '#about'" type = "button" class = "btn btn-secondary mr-3 mt-2" data-aos = "zoom-out" data-aos-duration = "1000" data-aos-delay = "500">
+                    Learn more!
+                </button>
+            </div>
+        </div>
+        <!-- home page end -->
+
+        <!-- about me page start -->
+        <div id = "about" class = "about container-fluid px-3 px-sm-5 px-md-0 text-center text-md-left">
+            <div class = "row d-flex justify-content-center py-5 w-100 mx-0" data-aos = "fade-up" data-aos-duration = "700">
+                <div class = "col-4 col-md-2 how-img">
+                    <img src = "images/violet.png" class = "rounded-circle img-fluid" alt = "Photograph of Violet Jessop">
+                </div>
+                
+                <div class = "col-md-6">
+                    <h2>About Me</h2>
+                    <hr id = "hrabout">
+                    <p>
+                        My name is Violet Jessop and I’m from Bahía Blanca, Argentina. When I was a 
+                        child I contracted tuberculosis, which despite doctors' predictions, I survived.
+                        <br><br>
+                        At 16 years old, my father died due to complications from surgery and my family
+                        moved to England, where I attended a convent school and cared for my youngest 
+                        sister while my mother was at sea working as a stewardess.
+                        <br><br>
+                        When my mother became ill, I left school and, following in my mother's footsteps,
+                        applied to be a stewardess. Obtaining my first stewardess position with the Royal Mail 
+                        Line aboard the Orinoco in 1908, I worked in the same field consistently until 
+                        retirement in 1950.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- about me page end -->
+
+        <!-- experience page start -->
+        <div id = "myWork" class = "myWork container-fluid pb-10 px-sm-5 px-md-0 thing">
+            <div data-aos = "fade-up" data-aos-duration = "1000">
+                <h2 class = "pb-3 text-center pt-5">Experience</h2>
+                <hr id = "hrwork">
+                <div class = "row d-flex justify-content-center align-center w-100 mx-0">
+                    <div class = "project col-10 col-sm-6 col-md-3">
+                        <a href = "#"><img class = "img-thumbnail" src = "images/olympic.png" alt = "RMS Olympic"/></a>
+                        <h3 class = "mt-3 text-sm-center text-md-left">RMS Olympic</h3>
+                        <p class = "text-sm-center text-md-left">
+                            In 1911 I began working as a stewardess for the White 
+                            Star vessel RMS Olympic. Olympic was a luxury ship that
+                            was the largest civilian liner at the time. 
+                            <br><br>
+                            In addition to this, the RMS Olympic held the status of
+                            being the lead ship of the White Star Line's trio of 
+                            Olympic-class liners. The Olympic-class ocean liners 
+                            included the Olympic (1911), Titanic (1912), and 
+                            Britannic (1915).
+                            <br><br>
+                            I was on board on 20 September 1911, when Olympic left 
+                            from Southampton and collided with the British warship 
+                            HMS Hawke. Thankfully there were no fatalities, and 
+                            despite considerable damage the ship was able to make 
+                            it back to port without sinking.
+                        </p>
+                    </div>
+                    <div class = "project col-10 col-sm-6 col-md-3">
+                        <a href = "#"><img class = "img-thumbnail" src = "images/titanic.png" alt = "RMS Titanic"/></a>
+                        <h3 class = "mt-3 text-sm-center text-md-left">RMS Titanic</h3>
+                        <p class = "text-sm-center text-md-left">
+                            I boarded the RMS Titanic as a stewardess on 10 April 1912, 
+                            at age 24. Four days later, on 14 April, it struck an iceberg
+                            in the North Atlantic, where Titanic sank about two hours 
+                            and forty minutes after the collision.
+                            <br><br>
+                            After fulfilling my duties I was ordered into lifeboat 16, 
+                            and as the boat was being lowered one of Titanic's officers
+                            entrusted me a baby to look after. The next morning, the rest
+                            of the survivors and I were rescued by the RMS Carpathia.
+                        </p>
+                    </div>
+                    <div class = "project col-10 col-sm-6 col-md-3">
+                        <a href = "#"><img class = "img-thumbnail" src = "images/britannic.png" alt = "HMHS Britannic"/></a>
+                        <h3 class = "mt-3 text-sm-center text-md-left">HMHS Britannic</h3>
+                        <p class = "text-sm-center text-md-left">
+                            During the First World War, I served as a nurse with the 
+                            British Red Cross. On the morning of 21 November 1916, I was
+                            on board HMHS Britannic, a White Star Liner that had been 
+                            converted into a hospital ship, when it sank in the Aegean 
+                            Sea after striking a deep sea mine.
+                            <br><br>
+                            Britannic sank within 55 minutes, killing 30 of the 1,066 
+                            people on board. While Britannic was sinking, myself and
+                            other passengers were nearly killed by the ship's propellers 
+                            that were sucking lifeboats under the stern. In order to 
+                            survive I was forced to jump out of my lifeboat, resulting
+                            in a traumatic head injury which I ALSO survived.
+                            <br><br>
+                            I returned to work for the White Star Line in 1920.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- experience page end -->
+
+        <!-- services page start -->
+        <div id = "myServices" class = "myServices container-fluid mx-0 thing">
+            <div data-aos = "fade-up" data-aos-duration = "1000">
+                <h2 id = "do" class = "pb-3 text-center pt-5">Services</h2>
+                <hr/>
+                <div class = "row d-flex justify-content-center" data-aos = "fade-up" data-aos-duration = "700">
+                    <div class = "services col-9 col-md-4 text-center mx-3 my-3">
+                        <img class = "iconO col-4 " src = "images/stew.png" alt = "">
+                        <h3 class = "mt-2">Stewardess</h3>
+                        <p class = "text-wrap">
+                            Spending nearly 40 years look after the passengers on White 
+                            Star ships, between 1910 and 1950, you'll find no one better.
+                            I am proficient in emergency protocols, knowledge of vessel
+                            safety rules and regulation, and demonstrating the use of
+                            safety equipment. As demonstrated in the past, I am able to 
+                            pacify even the most irate of passengers with a courteousness
+                            and cheerful disposition.
+                        </p>
+                    </div>
+
+                    <div class = "services col-9 col-md-4 text-center mx-3 my-3">
+                        <img class = " iconO col-4 " src = "images/nurse.png" alt = "">
+                        <h3 class = "mt-2">Nurse</h3>
+                        <p class = "text-wrap">
+                            During the First World War, I was trained and served as a
+                            nurse with the British Red Cross on board the HMHS Britannic.
+                            Sure, 30 people died in one day once, but that was totally 
+                            Captain Iceberg Charlie's fault, not mine. I did my best given 
+                            a shit situation. It's a medical practice after all, not a 
+                            medical perfect.
+                        </p>                    
+                    </div>
+                </div>
+
+            <div class = "row d-flex justify-content-center" data-aos = "fade-up" data-aos-duration = "700">
+                <div class = "services col-9 col-md-4 text-center mx-3 my-3">
+                    <img class = "iconO col-4" src = "images/swim.png" alt = "">
+                    <h3 class = "mt-2">Swim Instructor</h3>
+                    <p class = "text-wrap">
+                        Before the HMHS Britannic sank, I didn't even know how to
+                        swim! But it turns out that being forced into the sea to 
+                        avoid being turned into mince meat by the propeller of 
+                        a world class ocean liner teaches you a lot. And I'm 
+                        willing to impart that knowledge onto you, for a fee.
+                    </p>
+                </div>
+
+                <div class = "services col-9 col-md-4 text-center mx-3 my-3">
+                    <img class = "iconO col-4" src = "images/baby.png" alt = "">
+                    <h3 class = "mt-2">Baby Sitter</h3>
+                    <p class = "text-wrap">
+                        As the Titanic sunk, I was ordered into lifeboat 16. 
+                        As the boat was being lowered, one of ship's officers
+                        thrust a baby into my arms. The next morning, the rest
+                        of the survivors and I were rescued by the RMS Carpathia. 
+                        While on board Carpathia, the baby and thier mother were
+                        reuinted. If experience baby sitting under such dire 
+                        circumstances isn't enough for you, I don't know what 
+                        you want from me.
+                    </p>                    
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- services page end -->
+
+        <!-- contact me page start -->
+        <div id = "contact" class = "contact container-fluid py-5 thing">
+            <div class = "row justify-content-center pt-5" data-aos = "fade-up" data-aos-duration = "700">
+                <div class = "col-md-3 mx-4 mx-md-0">
+                    <h2><span>Contact Me</span></h2>
+                    <hr class = "ml-0">
+                    <p class = "col-md-11 pl-0">
+                        <span>If you like my work, feel free to drop me a line.</span>
+                    </p>
+                    <iframe src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9795.027240288135!2d0.6821392!3d52.1387451!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3dfdec02f128400!2sHartest%20Cemetery!5e0!3m2!1sen!2sau!4v1617450418598!5m2!1sen!2sau"
+                            class = "col-md-11 px-0 mx-2 mx-md-0 mb-3" allowfullscreen = "">
+                    </iframe>
+                </div>
+
+                <div class = "col-10 col-md-6 wow animated fadeInRight" data-wow-delay = "0.2s">
+                    <form class = "shake" method = "post" id = "contactForm" name = "contact-form" data-toggle = "validator">
+                        <!-- name -->
+                        <div class = "form-group label-floating">
+                            <label class = "control-label" for = "name"><span class = "keeptogether">Your Name</span></label>
+                            <input class = "form-control" id = "name" type = "text" name = "name" 
+                                   placeholder = "John Doe" required data-error = "Please enter your name!">
+                            <div class = "help-block with-errors"></div>
+                        </div>
+
+                        <!-- email -->
+                        <div class = "form-group label-floating">
+                            <label class = "control-label" for = "email"><span class = "keeptogether">Your Email Address</span></label>
+                            <input class = "form-control" id = "email" type = "email" name = "email"
+                                   placeholder = "john.doe@gmail.com" required data-error = "Please enter your email address!">
+                            <div class = "help-block with-errors"></div>
+                        </div>
+
+                        <!-- subject -->
+                        <div class = "form-group label-floating">
+                            <label class = "control-label" for = "msg_subject"><span class = "keeptogether">Subject Line</span></label>
+                            <input class = "form-control" id = "msg_subject" type = "text" name = "subject"
+                                   placeholder = "Subject Line" required data-error = "Please enter your message subject!">
+                            <div class = "help-block with-errors"></div>
+                        </div>
+
+                        <!-- message -->
+                        <div class = "form-group label-floating">
+                            <label for = "message" class = "control-label"><span class = "keeptogether">Your Message</span></label>
+                            <textarea class = "form-control" rows = "3" id = "message" name = "message"
+                                      placeholder = "Your Message" required data-error = "Enter your message!"></textarea>
+                            <div class = "help-block with-errors"></div>
+                        </div>
+
+                        <!-- form submission -->
+                        <div class = "form-submit mt-5 offset-md-9" style = "white-space: nowrap">
+                            <button class = "btn btn-primary" type = "submit" id = "form-submit">Send Message</button>
+                            <div id = "msgSubmit" class = "h3 text-center hidden"></div>
+                            <div class = "clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- contact me page end -->
+
+        <!-- footer bar start -->
+        <footer class = "row d-flex justify-content-center h-100 align-center">
+            <p class = "col-md-6 text-center my-auto align-center">&copy; 2021 Free Aalia Sobolewski</p>
+                <div class = "col-md-6 text-center">
+                    <ul class = "text-center mb-0 pl-0 pr-0 pl-md-6">
+                        <li class = "icon mx-2 d-inline-block">
+                            <a href = "http://www.facebook.com" aria-label = "Facebook" class = "icoFacebook" title = "Facebook">
+                                <i class = "fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class = "icon mx-2 d-inline-block">
+                            <a href = "http://www.twitter.com" aria-label = "Twitter" class = "icoTwitter" title = "Twitter">
+                                <i class = "fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class = "icon mx-2 d-inline-block">
+                            <a href = "http://www.linkedin.com" aria-label = "Linkedin" class = "icoLinkedin" title = "Linkedin">
+                                <i class = "fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>				
+                </div>
+        </footer>
+        <!-- footer bar end -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin = "anonymous"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin = "anonymous"></script>
+        <script src = "https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>   
+            AOS.init(); 
+         </script>
+    </body>
+</html>
